@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Jumpy</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/Logo DNC.png" alt="Logo DNC" width="100px">
+    </header>
+    <main>
+        <div class="mainline">
+            <img src="./assets/Logo Jumpy.png" alt="Logo Jumpy" width="200px">
+            <p>Bem vindo ao Jumpy!</h2>
+        </div>
+        <div>
+            <form class="formulario">
+                <div class="container">
+                    <label for="">Nome Completo:</label>
+                    <input type="text" placeholder="Nome completo">
+                    <p class="fieldMsg" id="nameMsg">Campo Obrigatório*</p>
+                </div>
+                <div class="container">
+                    <label for="">Email:</label>
+                    <input type="email" placeholder="email@dnc.com">
+                    <p class="fieldMsg" id="emailMsg">Campo Obrigatório*</p>
+                </div>
+                <div class="container">
+                    <label for="">Telefone:</label>
+                    <input type="tel" placeholder="(00) 00000-0000">
+                    <p class="fieldMsg" id="telMsg">Campo Obrigatório*</p>
+                </div>
+                <div class="container">
+                    <label for="">CPF:</label>
+                    <input type="text" placeholder="000.000.000-00">
+                    <p class="fieldMsg" id="cpfMsg">Campo Obrigatório*</p>
+                </div>
+                <div class="container">
+                    <label for="">Senha:</label>
+                    <input type="password" placeholder="*************">
+                    <p class="fieldMsg" id="senhaMsg">Campo Obrigatório*</p>
+                </div>
+                <button id='btnSend' type='button'>Cadastrar</button>
+                <div class="msg">
+                    <p id="textAlert"></p>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
